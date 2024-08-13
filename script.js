@@ -58,15 +58,15 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Você prefere serie ou filme ",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Filme são muito melhor",
+                afirmacao: "filme é coisa que tem ele mostra as melhores atuação"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Serie sempre insentiva agente assestir mais episodio ",
+                afirmacao: "Serie mostra muito mais opição para vocễ"
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Em 2024...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
